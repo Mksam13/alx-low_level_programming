@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - printing to screen the various data type sizes of my laptop which is a 64-bit laptop
+ * main - printing to screen the various data type sizes of my laptop
  *
  * Return: 0 Always (Success)
  */
