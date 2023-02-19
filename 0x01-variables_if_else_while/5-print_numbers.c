@@ -12,8 +12,9 @@ int main(void)
 	a = 0;
 	while (a < 10)
 {
-	puts(a);
+	printf("%d", a);
 	a++;
 }
+	putchar('\n');
 	return (0);
 }
