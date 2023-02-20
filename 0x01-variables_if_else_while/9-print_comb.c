@@ -8,20 +8,14 @@
 int main(void)
 {
 	int a;
-	int b;
-	int c;
 
-	a = '0';
-	b = ',';
-	c = ' ';
-	while (a < '9')
+	for (a = 0; a < 10; a++)
 	{
-		putchar(a);
-		a++;
-		if (a <= '8')
+		putchar(a + '0');
+		if (a < 9)
 		{
-			putchar(b);
-			putchar(c);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
