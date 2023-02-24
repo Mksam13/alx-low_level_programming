@@ -12,7 +12,7 @@ void more_numbers(void)
 	char d;
 
 	a = 0;
-	while (a < 11)
+	while (a < 10)
 	{
 		b = 0;
 		while (b <= 14)
