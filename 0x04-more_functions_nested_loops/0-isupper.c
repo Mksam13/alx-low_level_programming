@@ -8,7 +8,11 @@
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	char results;
+
+	results = c;
+
+	if (results >= 'A' && results <= 'Z')
 		_putchar(1 + '0');
 	else
 		_putchar(0 + '0');
